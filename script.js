@@ -15,6 +15,18 @@ const maxSubArray = (par) => {
   }
   return maxSoFar;
 };
-const nums = [3, 4, 6, -1, -6, 4];
+const nums = [3, 4, 9, 6, -1, -6, 4];
 const check = maxSubArray(nums);
 console.log(check);
+
+// fibonacci sequence
+function fibonacci(n) {
+  const fib = [0, 1];
+  for (let i = 2; i < n; i++) {
+    fib[i] = fib[i - 1] + fib[i - 2];
+  }
+
+  return fib;
+}
+
+console.log(fibonacci(100));
