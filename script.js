@@ -1,7 +1,7 @@
 console.log("hello");
 // maximum subarray
 
-const maxSubArray = () => {
+const maxSubArray = (par) => {
   let maxSoFar = nums[0];
   let currSum = nums[0];
   for (let i = 1; i < nums.length; i++) {
