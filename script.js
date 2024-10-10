@@ -79,3 +79,12 @@ const isPrimeNumber = (n) => {
 };
 
 console.log(isPrimeNumber(8));
+//power of two
+
+const powerTwo = (n) => {
+  let number = n * n;
+
+  return number;
+};
+
+console.log(powerTwo(5));
