@@ -1,4 +1,4 @@
-console.log("hello");
+// console.log("hello");
 // maximum subarray
 
 const maxSubArray = (par) => {
@@ -17,7 +17,7 @@ const maxSubArray = (par) => {
 };
 const nums = [3, 4, 9, 6, -1, -6, 4];
 const check = maxSubArray(nums);
-console.log(check);
+// console.log(check);
 
 // fibonacci sequence
 function fibonacci(n) {
@@ -29,4 +29,26 @@ function fibonacci(n) {
   return fib;
 }
 
-console.log(fibonacci(100));
+// console.log(fibonacci(100));
+
+// summation
+const summation = (n) => {
+  let sum = 0;
+  for (let i = 0; i <= n; i++) {
+    sum += i;
+  }
+
+  return sum;
+};
+
+console.log(summation(8));
+
+const multiply = (n) => {
+  let mult = 0;
+  for (let i = 0; i <= n; i++) {
+    mult = mult * i;
+  }
+
+  return mult;
+};
+console.log(multiply(5));
