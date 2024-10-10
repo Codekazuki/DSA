@@ -44,11 +44,22 @@ const summation = (n) => {
 console.log(summation(8));
 
 const multiply = (n) => {
-  let mult = 0;
-  for (let i = 0; i <= n; i++) {
+  let mult = 1;
+  for (let i = 1; i <= n; i++) {
     mult = mult * i;
   }
 
   return mult;
 };
 console.log(multiply(5));
+
+// Factorial of an integer
+const factorial = (n) => {
+  let result = 1;
+  for (let i = 1; i <= n; i++) {
+    result = result * i;
+  }
+  return result;
+};
+
+console.log(factorial(15));
