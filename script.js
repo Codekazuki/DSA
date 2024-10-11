@@ -51,7 +51,7 @@ const multiply = (n) => {
 
   return mult;
 };
-console.log(multiply(5));
+console.log(multiply(3));
 
 // Factorial of an integer
 const factorial = (n) => {
@@ -88,3 +88,18 @@ const powerTwo = (n) => {
 };
 
 console.log(powerTwo(5));
+
+//isPowerOfTwo
+const isPowerOfTwo = (n) => {
+  if (n < 1) {
+    return false;
+  }
+  while (n > 1) {
+    if (n % 2 !== 0) {
+      return false;
+    }
+    n = n / 2;
+  }
+  return true;
+};
+console.log(isPowerOfTwo(3));
