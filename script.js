@@ -93,3 +93,14 @@ const isPowerOfTwo = (n) => {
   return true;
 };
 console.log(isPowerOfTwo(3));
+
+const addUp = (a, b) => {
+  return a + b;
+};
+
+function addition(a, b) {
+  return a + b;
+}
+
+console.log(addition(1, 5));
+console.log(addUp(100, 50));
