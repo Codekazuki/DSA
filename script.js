@@ -92,7 +92,7 @@ const isPowerOfTwo = (n) => {
   }
   return true;
 };
-console.log(isPowerOfTwo(3));
+console.log(isPowerOfTwo(25));
 
 const addUp = (a, b) => {
   return a + b;
