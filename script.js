@@ -29,8 +29,6 @@ function fibonacci(n) {
   return fib;
 }
 
-// console.log(fibonacci(100));
-
 // summation
 const summation = (n) => {
   let sum = 0;
